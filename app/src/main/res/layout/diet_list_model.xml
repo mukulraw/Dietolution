@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:background="@color/colorPrimary"
+    android:layout_marginBottom="18dp"
+    android:layout_marginStart="18dp"
+    android:layout_marginTop="18dp"
+    android:layout_marginEnd="18dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Breakfast"
+            android:textColor="#ffffff"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="2dp"
+                android:background="#ffffff"
+                android:layout_margin="3dp"
+                android:layout_gravity="start"/>
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="2dp"
+                android:background="#ffffff"
+                android:layout_margin="3dp"
+                android:layout_gravity="end"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6:00 A.M-7;00 A.M"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Name"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingStart="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Name"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingStart="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Name"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingStart="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Name"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingStart="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv3"
+            android:text="View ALL"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:paddingEnd="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingStart="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+</LinearLayout>
+</LinearLayout>

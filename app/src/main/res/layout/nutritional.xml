@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NUTRITIONAL DETAILS"
+            android:paddingTop="25dp"
+            android:paddingStart="25dp"
+            android:paddingBottom="25dp"
+            android:paddingEnd="25dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serving Size 100g (100g)"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cdcdcd"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount Per Serving"
+        android:paddingTop="5dp"
+        android:paddingStart="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cdcdcd"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Calories"
+                android:paddingTop="15dp"
+                android:paddingStart="15dp"
+                android:paddingBottom="15dp"
+                android:paddingEnd="15dp"
+                />
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#cdcdcd"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="440 Cal."
+                android:paddingTop="15dp"
+                android:paddingStart="15dp"
+                android:paddingBottom="15dp"
+                android:paddingEnd="15dp"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total Fat"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="18 Cal."
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Carbohydrates"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="62 Cal."
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Protein"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=" 11g"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sodium"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="100mg"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fiber"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="115mg"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sugar"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="0g"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vitamin A"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="5g"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vitamin C"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="0%"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Iron"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            />
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#cdcdcd"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="3%"
+            android:paddingTop="15dp"
+            android:paddingStart="15dp"
+            android:paddingBottom="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center"
+
+            />
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cdcdcd"
+            />
+
+</LinearLayout>
+
+    </ScrollView>

@@ -83,7 +83,6 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/orderfood"
                     android:textColor="#ffffff"
-
                     android:text="ORDER FOODS"
                     android:textStyle="bold"
                     android:textSize="20sp"
@@ -119,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/creategoals"
                     android:textColor="#ffffff"
-                    android:text="CREATE GOALS"
+                    android:text="ADD MORE PROFILES"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:layout_centerInParent="true"

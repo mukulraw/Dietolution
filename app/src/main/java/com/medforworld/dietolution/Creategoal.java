@@ -8,28 +8,28 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 
 
 public class Creategoal extends Fragment {
-
-    RelativeLayout relativeLayout;
+    Button btn;
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.creategoal, container, false);
+        View view = inflater.inflate(R.layout.create_list_model, container, false);
 
-        relativeLayout = (RelativeLayout) view.findViewById(R.id.relative1);
-        relativeLayout.setOnClickListener(new View.OnClickListener() {
+        btn = (Button) view.findViewById(R.id.creategoals);
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FragmentManager fm = ((MainActivity) getContext()).getSupportFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();
-                Cre creategoal = new Creategoal();
-                ft.replace(R.id.linear, creategoal);
+                Searchgoal searchgoal = new Searchgoal();
+                ft.replace(R.id.linear,searchgoal);
                 ft.addToBackStack(null);
                 ft.commit();
             }
